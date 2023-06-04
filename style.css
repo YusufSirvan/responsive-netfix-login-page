@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.header h1{
+    color: red;
+    
+
+}
+/*mobile start(iphone 12pro)*/
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#mail{
+    width: 340px;
+    height: 40px;
+    margin: 15px;
+    background-color: #333333;
+    color: #8c8c80;
+    padding-left: 10px;
+    border-radius: 8px;
+
+}
+#pas{
+    margin-left: 15px;
+    width: 340px;
+    height: 40px;
+    background-color: #333333;
+    border-radius: 8px;
+    color: #8c8c80;
+    padding-left: 10px;
+    font-size: 18px;
+    text-align:left;
+}
+button{
+    margin-top: 35px;
+    margin-left: 15px;
+    width: 350px;
+    height: 50px;
+    background-color: #e50914;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 8px;
+}
+#check{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 40px;
+    height: 20px;
+
+}
+span{
+    color: gray;
+    font-size: 20px;
+    margin-top: 3px;
+}
+p{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: gray;
+}
+a{
+    color: blue;
+}
+hr{
+    margin-top: 90px;
+    color: gray;
+}
+select{
+    background-color: black;
+    color: darkgrey;
+    margin-top: 280px;
+    margin-left: 15px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+/*mobile end*/
+
+/*ipad start*/
+
+@media only screen and (min-width: 820px){
+    body{
+        background-image: url(arka.png);
+    }
+   
+    h1{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+#mail{
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+#pas{
+    margin-left: 50px;
+}
+button{
+    margin-left: 50px;
+}
+#check{
+    margin-left: 50px;
+
+}
+p{
+    margin-left: 50px;
+    width: 350px;
+}
+hr{
+    display: none;
+}
+select{
+    margin-top: 280px;
+    margin-left: 15px;
+}
+.footer{
+    margin-top: 170px;
+    background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+}
+.content{
+    width: 450px;
+    height: 550px;
+    margin-left: 200px;
+    background-color: black;
+    opacity: 0.8;
+    filter:alpha(opacity=60);
+    
+}  
+}
+/*ipad end*/
+
+@media only screen and (min-width: 1000px){
+    .content{
+        margin-left: 400px;
+        height: 600px;
+        
+    }
+   
+    select{
+        margin-top: 150px;
+        margin-left: 200px;
+    }
+
+
+
+}
